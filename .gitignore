@@ -5,7 +5,7 @@ test.db
 
 frontend/node_modules/
 backend/venv/
-
+.idea/
 # OS generated files #
 ######################
 .DS_Store

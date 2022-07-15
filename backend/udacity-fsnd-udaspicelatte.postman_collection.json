@@ -1,8 +1,9 @@
 {
 	"info": {
-		"_postman_id": "e8ad44ee-7536-4901-913c-46e718d56d9f",
+		"_postman_id": "5fd3df55-3dc3-492b-b06f-070210922464",
 		"name": "udacity-fsnd-udaspicelatte",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16675767"
 	},
 	"item": [
 		{
@@ -14,7 +15,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "05cea6f9-9af0-4e60-9aad-4c8faf37ef4c",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -50,7 +50,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "65a195fa-a734-44b7-a7e0-c629b32d1fbb",
 								"exec": [
 									"pm.test(\"Status code is 401 since no credentials are present\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -81,7 +80,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "5050a5b9-2e15-474e-9981-0e61ec8d2ff1",
 								"exec": [
 									"pm.test(\"Status code is 401 since no credentials are present\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -112,7 +110,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ec1488aa-b4d7-468a-89f5-03484009e69c",
 								"exec": [
 									"pm.test(\"Status code is 401 since no credentials are present\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -144,7 +141,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "0aea66ad-0a6e-4533-b192-a8b0af746c78",
 								"exec": [
 									"pm.test(\"Status code is 401 since no credentials are present\", function () {",
 									"    pm.response.to.have.status(401);",
@@ -181,7 +177,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "05cea6f9-9af0-4e60-9aad-4c8faf37ef4c",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -197,6 +192,16 @@
 						}
 					],
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklaWUg5RV9neXlmbENtM25uZFBuYyJ9.eyJpc3MiOiJodHRwczovL2Rldi03eDBxc2hzZy51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJiZWZjYWIzOTVhOWY1YTBiYTZkMmM5IiwiYXVkIjoiY29mZmVlX3Nob3AiLCJpYXQiOjE2NTc5MjE3MjAsImV4cCI6MTY1ODAwODEyMCwiYXpwIjoiQTZrS0luenVBMm1pM3Q0VGVvajZyUUpNZmdnWVZ5WkwiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCJdfQ.YU99mQBXZ4Tq9IfEGQv4SEz7FBRkIPMs1U7f7EXKoR7KVXbzS4I4Qu8g08yYd-1ouBLYC130mCRpO64TNTBUjOYSgpnXcW70BL4sakavwOaqWf_sRZUjB4J5-xd7MEELpFxL3DHa1PiUKlRw7rhI2I7c4zAvz4J79p_hjRuz9utJXSFx1AM7wq_lz4Pog0k7qP2lQ18Cgyohn5ohXPxWTS7kPkNJrjnltmRtOwju0ZRdzuCCxFAJq7O539LknlyeNQu-HJqs3zlIRYQP7hpU0YJycR2OTJugkuRqs_X-GFpCsjwwBqeo1yarolVOMC4TCW9Lhzm7JOqkZZm7xcssLw",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -217,7 +222,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "65a195fa-a734-44b7-a7e0-c629b32d1fbb",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -228,6 +232,16 @@
 						}
 					],
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklaWUg5RV9neXlmbENtM25uZFBuYyJ9.eyJpc3MiOiJodHRwczovL2Rldi03eDBxc2hzZy51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJiZWZjYWIzOTVhOWY1YTBiYTZkMmM5IiwiYXVkIjoiY29mZmVlX3Nob3AiLCJpYXQiOjE2NTc5MjE3MjAsImV4cCI6MTY1ODAwODEyMCwiYXpwIjoiQTZrS0luenVBMm1pM3Q0VGVvajZyUUpNZmdnWVZ5WkwiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImdldDpkcmlua3MiLCJnZXQ6ZHJpbmtzLWRldGFpbCJdfQ.YU99mQBXZ4Tq9IfEGQv4SEz7FBRkIPMs1U7f7EXKoR7KVXbzS4I4Qu8g08yYd-1ouBLYC130mCRpO64TNTBUjOYSgpnXcW70BL4sakavwOaqWf_sRZUjB4J5-xd7MEELpFxL3DHa1PiUKlRw7rhI2I7c4zAvz4J79p_hjRuz9utJXSFx1AM7wq_lz4Pog0k7qP2lQ18Cgyohn5ohXPxWTS7kPkNJrjnltmRtOwju0ZRdzuCCxFAJq7O539LknlyeNQu-HJqs3zlIRYQP7hpU0YJycR2OTJugkuRqs_X-GFpCsjwwBqeo1yarolVOMC4TCW9Lhzm7JOqkZZm7xcssLw",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -248,7 +262,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "5050a5b9-2e15-474e-9981-0e61ec8d2ff1",
 								"exec": [
 									"pm.test(\"Status code is 403 since credentials are valid, but permission is not present\", function () {",
 									"    pm.response.to.have.status(403);",
@@ -289,7 +302,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ec1488aa-b4d7-468a-89f5-03484009e69c",
 								"exec": [
 									"pm.test(\"Status code is 403 since credentials are valid, but permission is not present\", function () {",
 									"    pm.response.to.have.status(403);",
@@ -321,7 +333,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "0aea66ad-0a6e-4533-b192-a8b0af746c78",
 								"exec": [
 									"pm.test(\"Status code is 403 since credentials are valid, but permission is not present\", function () {",
 									"    pm.response.to.have.status(403);",
@@ -362,7 +373,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "f985b22c-34c4-4cfe-8308-f6fb98d799ac",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -372,7 +382,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "596425ac-59b4-4488-9f07-4c748e1ad082",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -390,7 +399,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "05cea6f9-9af0-4e60-9aad-4c8faf37ef4c",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -406,6 +414,16 @@
 						}
 					],
 					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IklaWUg5RV9neXlmbENtM25uZFBuYyJ9.eyJpc3MiOiJodHRwczovL2Rldi03eDBxc2hzZy51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjJiZWUxOWZmZTA2MjkxMTYwOTJhYjdhIiwiYXVkIjoiY29mZmVlX3Nob3AiLCJpYXQiOjE2NTc5MjIxNTMsImV4cCI6MTY1ODAwODU1MywiYXpwIjoiQTZrS0luenVBMm1pM3Q0VGVvajZyUUpNZmdnWVZ5WkwiLCJzY29wZSI6IiIsInBlcm1pc3Npb25zIjpbImRlbGV0ZTpkcmlua3MiLCJnZXQ6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiLCJwYXRjaDpkcmlua3MiLCJwb3N0OmRyaW5rcyJdfQ.XmQLVVgpSd8Z-bKGgopel37qcSQg80RW1JEcR6GPn2EdRsckpN8FXhzSVqRZ78xd-d5H-_YPgl5-BYY7eJaJd9UsBuGrkPlv5NQ406R58lfCIaAQpiY2Zrjd3y02Z5FgcN2hSt0bBxvDhp3XO6w22xuXX2HDFYKwoqsGJmyr4MGrXa0txgZteOQ7iPGbAYh3TQr62qkwXNJ3Kj0nT3UFC33eCQwMrtt5-M6DLGd8ZW-NjUjOxBCGEt2NHUbeGNU8hP2mYzXWRxickcpwjYJoktguJxJdl4HCqSee8w3nmYi0qzMbeDYCaa6e64S9eGed19WB5ZVf-77gCUQPdGdIvQ",
+									"type": "string"
+								}
+							]
+						},
 						"method": "GET",
 						"header": [],
 						"url": {
@@ -426,7 +444,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "65a195fa-a734-44b7-a7e0-c629b32d1fbb",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -462,7 +479,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "5050a5b9-2e15-474e-9981-0e61ec8d2ff1",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -504,7 +520,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ec1488aa-b4d7-468a-89f5-03484009e69c",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -552,7 +567,6 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "0aea66ad-0a6e-4533-b192-a8b0af746c78",
 								"exec": [
 									"pm.test(\"Status code is 200\", function () {",
 									"    pm.response.to.have.status(200);",
@@ -593,7 +607,6 @@
 				{
 					"listen": "prerequest",
 					"script": {
-						"id": "113ee6fe-418d-4bf4-a641-444b5816e46b",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -603,7 +616,6 @@
 				{
 					"listen": "test",
 					"script": {
-						"id": "5704da6d-dc7e-42b9-8214-aa7ecf075bca",
 						"type": "text/javascript",
 						"exec": [
 							""
@@ -617,7 +629,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "fc871e59-eaa4-46e8-975b-87b750ad1804",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -627,7 +638,6 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "e5766f23-c7f1-472b-ae34-825a91147815",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -637,7 +647,6 @@
 	],
 	"variable": [
 		{
-			"id": "7da0fa13-ecd9-4d7d-8e38-fde2c81cfdaf",
 			"key": "host",
 			"value": "localhost:5000",
 			"type": "string"
